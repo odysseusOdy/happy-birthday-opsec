@@ -61,6 +61,7 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.2, duration: 0.5 }}
               onClick={() => setPage(1)}
+              
             >
               Дальше →
             </motion.button>
