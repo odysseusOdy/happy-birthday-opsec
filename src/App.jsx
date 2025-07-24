@@ -74,7 +74,7 @@ export default function App() {
             initial={{ x: "100vw", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: "-100vw", opacity: 0 }}
-            transition={{ type: "spring", stiffness: 80, damping: 14 }}
+            transition={{ type: "spring", stiffness: 80, damping: 14, delay: 0.15 }}
             style={{ overflow: "visible" }}
           >
             <div className="flying-icons-inside">
@@ -100,7 +100,7 @@ export default function App() {
               className="gd-title"
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3, duration: 0.7 }}
+              transition={{ delay: 0.45, duration: 0.7 }}
             >
               Развивайся в ИБ!
             </motion.h2>
@@ -108,7 +108,7 @@ export default function App() {
               className="gd-text"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.7, duration: 0.7 }}
+              transition={{ delay: 0.95, duration: 0.7 }}
             >
               Изучай новые инструменты, участвуй в CTF и пусть твои навыки всегда будут на высоте!
             </motion.p>
@@ -116,7 +116,7 @@ export default function App() {
               className="gd-books"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.2, duration: 0.5 }}
+              transition={{ delay: 1.55, duration: 0.5 }}
             >
               <a className="gd-btn" href="https://drive.google.com/file/d/1fGM0pOe5NIR5brmRhHszSagNX_ZauvQa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 Скачать The Web Application Hacker's Handbook (2011)
@@ -129,7 +129,7 @@ export default function App() {
               className="gd-footer"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.5, duration: 0.5 }}
+              transition={{ delay: 2.05, duration: 0.5 }}
             >
               <span>С любовью, твой друг :)</span>
             </motion.div>
@@ -138,7 +138,7 @@ export default function App() {
               style={{ marginTop: 24 }}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.7, duration: 0.5 }}
+              transition={{ delay: 2.45, duration: 0.5 }}
               onClick={() => setPage(0)}
             >
               ← Назад
