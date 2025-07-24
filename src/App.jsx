@@ -118,11 +118,11 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.55, duration: 0.5 }}
             >
-              <a className="gd-btn" href="https://drive.google.com/file/d/1fGM0pOe5NIR5brmRhHszSagNX_ZauvQa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                Скачать The Web Application Hacker's Handbook (2011)
+              <a className="gd-btn" href="https://drive.google.com/file/d/19bSZu10eOoZdCMwfghtIZKz5ITxyox6P/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                Командная строка Linux. Полное руководство.
               </a>
-              <a className="gd-btn" href="https://drive.google.com/file/d/1OyJxdvMlFkJmCY1NBbRTZMq8aKz5x3ET/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                Скачать Аудит безопасности информационных систем
+              <a className="gd-btn" href="https://drive.google.com/file/d/1-8n3Kv_JIj9-t3-IiJzCfQB5cwj-3u6t/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                Гайд по установке Ubuntu Linux
               </a>
             </motion.div>
             <motion.div

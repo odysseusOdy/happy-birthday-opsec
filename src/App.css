@@ -188,6 +188,13 @@
     padding: 18px 6px 18px 6px;
     max-width: 98vw;
     border-radius: 14px;
+    background: rgba(255,255,255,0.95);
+    box-sizing: border-box;
+    display: block;
+    min-height: unset;
+    width: unset;
+    justify-content: unset;
+    flex-direction: unset;
   }
   .gd-title {
     font-size: 1.3rem;
