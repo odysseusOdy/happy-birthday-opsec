@@ -8,7 +8,7 @@ import metasploitLogo from "./assets/metasploit.svg";
 import wiresharkLogo from "./assets/wireshark.svg";
 
 // Заглушка: путь к фанфаре (заменить на свой файл в public/fanfare.mp3)
-const FANFARE_URL = "/fanfare.mp3";
+const FANFARE_URL = import.meta.env.BASE_URL + "fanfare.mp3";
 
 const flyingIcons = [
   { src: kaliLogo, alt: "Kali Linux", style: { top: "10%", left: "5%", animationDelay: "0s" } },
